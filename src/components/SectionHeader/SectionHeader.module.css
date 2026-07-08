@@ -1,0 +1,18 @@
+.header {
+  max-width: 680px;
+  margin-bottom: 44px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.header p:last-child {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.8;
+}

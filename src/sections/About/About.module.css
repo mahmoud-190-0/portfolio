@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 18px;
+}
+
+.panel {
+  min-height: 240px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 16px 46px rgba(0, 0, 0, 0.2);
+}
+
+.panel svg {
+  color: var(--cyan);
+}
+
+.panel h3 {
+  margin: 18px 0 12px;
+  font-size: 1.35rem;
+}
+
+.panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.panel a {
+  gap: 10px;
+  width: fit-content;
+  margin-top: 26px;
+}
+
+@media (max-width: 820px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .panel a {
+    width: 100%;
+  }
+}
