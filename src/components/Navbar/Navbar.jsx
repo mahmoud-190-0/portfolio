@@ -23,8 +23,8 @@ function Navbar() {
     >
       <nav className={styles.inner} aria-label="Main navigation">
         <a className={styles.logo} href="#home" onClick={closeMenu}>
-          <span>MA</span>
-          <strong>Mahmoud</strong>
+          <span>MAA</span>
+          <strong>Abo Ali</strong>
         </a>
 
         <button
