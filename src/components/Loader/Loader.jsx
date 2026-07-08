@@ -9,7 +9,7 @@ function Loader() {
         <span />
         <span />
       </div>
-      <p>Mahmoud.dev</p>
+      <h1>Abo Ali</h1>
     </div>
   );
 }
