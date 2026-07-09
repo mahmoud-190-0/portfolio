@@ -17,7 +17,7 @@ export const profile = {
   name: 'Eng Mahmoud Ahmed Ali',
   title: 'Full Stack Developer',
   education: 'Faculty of Computers and Information',
-  email: 'mfy1511@gmail.com',
+  email: 'faay1511@gmail.com',
   tagline: 'Full Stack Developer | Building Scalable Web Apps',
   bio:
     'I build clean, reliable, and scalable web applications across the full stack. My work combines thoughtful user experience, modern frontend engineering, robust APIs, and database design that supports real product growth.',

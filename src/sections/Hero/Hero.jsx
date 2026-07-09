@@ -95,11 +95,7 @@ function Hero() {
             </div>
           </div>
 
-          <a
-            className={styles.download}
-            href="/cv/Eng-Mahmoud-Ahmed-Ali-CV.html"
-            download
-          >
+          <a className={styles.download} href="" download>
             <Download size={18} />
             Download CV
           </a>
